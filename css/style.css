@@ -1,0 +1,38 @@
+/* mail color: #212121; 
+p- color: #757575;
+footer adress color: #FFFFFF;
+footer nav color: rgba(255, 255, 255, 0.6);
+hero color: #FFFFFF
+active color: #2196F3;;*/
+
+:root {
+  --main-color: #212121;
+  --text-color: #757575;
+  --active-color: #2196f3;
+  --hero-color: #ffffff;
+  --footer-color: rgba(255, 255, 255, 0.6);
+}
+body {
+  background-color: #ffffff;
+  color: var(--main-color);
+}
+/* .list {
+    list-style: none; для отдельных */
+ul {
+  list-style: none;
+}
+/* site nav */
+.site-nav .link {
+  color: var(--main-color);
+}
+.site-nav .link:hover,
+.site-nav .linl:active {
+  color: var(--active-color);
+}
+.adress-nav .alink {
+  color: var(--text-color);
+}
+.adress-nav .alink:hover,
+.adress-nav .alink:active {
+  color: var(--active-color);
+}
