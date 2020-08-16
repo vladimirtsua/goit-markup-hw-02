@@ -11,6 +11,7 @@ active color: #2196F3;;*/
   --active-color: #2196f3;
   --hero-color: #ffffff;
   --footer-color: rgba(255, 255, 255, 0.6);
+  --pbutton-color: #f5f4fa;
 }
 body {
   background-color: #ffffff;
@@ -29,10 +30,73 @@ ul {
 .site-nav .linl:active {
   color: var(--active-color);
 }
+.site-nav .link.current {
+  color: var(--active-color);
+}
 .adress-nav .alink {
   color: var(--text-color);
 }
 .adress-nav .alink:hover,
 .adress-nav .alink:active {
   color: var(--active-color);
+}
+/* hero */
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: var(--hero-color);
+}
+
+.button {
+  color: var(--hero-color);
+  background-color: var(--active-color);
+}
+/* quality */
+.quality-title {
+  color: var(--main-color);
+}
+.quality-text {
+  color: var(--text-color);
+}
+/* work */
+.work-title {
+  color: var(--main-color);
+}
+/* team */
+.team-maintitle {
+  color: var(--main-color);
+}
+.team-text {
+  color: var(--text-color);
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-address {
+  color: var(--hero-color);
+}
+.footer-link {
+  color: var(--footer-color);
+}
+
+/* portfolio nav */
+.nav .nav-list:hover,
+.nav .nav-list:active {
+  background-color: var(--active-color);
+  color: var(--hero-color);
+}
+.nav-list {
+  background-color: var(--pbutton-color);
+  color: var(--main-color);
+}
+
+/* example */
+.example-title {
+  color: var(--main-color);
+}
+
+.example-text {
+  color: var(--text-color);
 }
